@@ -1,0 +1,31 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Blueprints>
+<!--        <Blueprint> &lt;!&ndash; SteelBolt &ndash;&gt;-->
+<!--            <Id>-->
+<!--                <TypeId>BlueprintDefinition</TypeId>-->
+<!--                <SubtypeId>SteelBolt</SubtypeId>-->
+<!--            </Id>-->
+<!--            <DisplayName>Steel Bolts x100</DisplayName>-->
+<!--            <Icon>Textures\GUI\Icons\component\Construction\SteelBolt_Icon.dds</Icon>-->
+<!--            <Prerequisites>-->
+<!--                <Item Amount="10" TypeId="Ingot" SubtypeId="945Steel" />-->
+<!--            </Prerequisites>-->
+<!--            <Result Amount="100" TypeId="Component" SubtypeId="SteelBolt" />-->
+<!--            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>-->
+<!--        </Blueprint>-->
+<!--        <Blueprint> &lt;!&ndash; SteelBoltDisassembly &ndash;&gt;-->
+<!--            <Id>-->
+<!--                <TypeId>BlueprintDefinition</TypeId>-->
+<!--                <SubtypeId>SteelBoltDisassembly</SubtypeId>-->
+<!--            </Id>-->
+<!--            <DisplayName>Steel Bolt</DisplayName>-->
+<!--            <Icon>Textures\GUI\Icons\component\Construction\SteelBolt_Icon.dds</Icon>-->
+<!--            <Prerequisites>-->
+<!--                <Item Amount="0.1" TypeId="Ingot" SubtypeId="945Steel" />-->
+<!--            </Prerequisites>-->
+<!--            <Result Amount="1" TypeId="Component" SubtypeId="SteelBolt" />-->
+<!--            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>-->
+<!--        </Blueprint>-->
+    </Blueprints>
+</Definitions>
