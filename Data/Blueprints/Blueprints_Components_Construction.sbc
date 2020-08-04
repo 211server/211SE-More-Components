@@ -1,31 +1,120 @@
 ﻿<?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <Blueprints>
-<!--        <Blueprint> &lt;!&ndash; SteelBolt &ndash;&gt;-->
-<!--            <Id>-->
-<!--                <TypeId>BlueprintDefinition</TypeId>-->
-<!--                <SubtypeId>SteelBolt</SubtypeId>-->
-<!--            </Id>-->
-<!--            <DisplayName>Steel Bolts x100</DisplayName>-->
-<!--            <Icon>Textures\GUI\Icons\component\Construction\SteelBolt_Icon.dds</Icon>-->
-<!--            <Prerequisites>-->
-<!--                <Item Amount="10" TypeId="Ingot" SubtypeId="945Steel" />-->
-<!--            </Prerequisites>-->
-<!--            <Result Amount="100" TypeId="Component" SubtypeId="SteelBolt" />-->
-<!--            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>-->
-<!--        </Blueprint>-->
-<!--        <Blueprint> &lt;!&ndash; SteelBoltDisassembly &ndash;&gt;-->
-<!--            <Id>-->
-<!--                <TypeId>BlueprintDefinition</TypeId>-->
-<!--                <SubtypeId>SteelBoltDisassembly</SubtypeId>-->
-<!--            </Id>-->
-<!--            <DisplayName>Steel Bolt</DisplayName>-->
-<!--            <Icon>Textures\GUI\Icons\component\Construction\SteelBolt_Icon.dds</Icon>-->
-<!--            <Prerequisites>-->
-<!--                <Item Amount="0.1" TypeId="Ingot" SubtypeId="945Steel" />-->
-<!--            </Prerequisites>-->
-<!--            <Result Amount="1" TypeId="Component" SubtypeId="SteelBolt" />-->
-<!--            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>-->
-<!--        </Blueprint>-->
+        <Blueprint> <!-- SteelBolt -->
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SteelBolt</SubtypeId>
+            </Id>
+            <DisplayName>螺栓</DisplayName>
+            <Icon>Textures\GUI\Icons\component\Construction\SteelBolt_Icon.dds</Icon>
+            <Prerequisites>
+                <Item Amount="2" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="SteelBolt" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint> <!-- BrazingRod -->
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>BrazingRod</SubtypeId>
+            </Id>
+            <DisplayName>钎焊棒</DisplayName>
+            <Icon>Textures\GUI\Icons\component\Construction\BrazingRods_Icon.dds</Icon>
+            <Prerequisites>
+                <Item Amount="10" TypeId="Ingot" SubtypeId="Tin" />
+                <Item Amount="5" TypeId="Ingot" SubtypeId="Titanium" />
+                <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="0.2" TypeId="Ingot" SubtypeId="Lead" />
+                <Item Amount="0.1" TypeId="Ingot" SubtypeId="Zinc" />
+            </Prerequisites>
+            <Result Amount="100" TypeId="Component" SubtypeId="BrazingRod" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint> <!-- BareBrassWire -->
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>BareBrassWire</SubtypeId>
+            </Id>
+            <DisplayName>铜丝</DisplayName>
+            <Icon>Textures\GUI\Icons\component\Construction\BareBrassWire_Icon.dds</Icon>
+            <Prerequisites>
+                <Item Amount="3" TypeId="Ingot" SubtypeId="Copper" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="BareBrassWire" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint> <!-- AluminumPlate -->
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>AluminumPlate</SubtypeId>
+            </Id>
+            <DisplayName>铝板</DisplayName>
+            <Icon>Textures\GUI\Icons\component\Construction\AluminumPlate_Icon.dds</Icon>
+            <Prerequisites>
+                <Item Amount="21" TypeId="Ingot" SubtypeId="Aluminum" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="AluminumPlate" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint> <!-- TitaniumPlate -->
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>TitaniumPlate</SubtypeId>
+            </Id>
+            <DisplayName>钛板</DisplayName>
+            <Icon>Textures\GUI\Icons\component\Construction\TitaniumPlate_Icon.dds</Icon>
+            <Prerequisites>
+                <Item Amount="21" TypeId="Ingot" SubtypeId="Titanium" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="TitaniumPlate" />
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint> <!-- SmallCopperTube -->
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SmallCopperTube</SubtypeId>
+            </Id>
+            <DisplayName>小铜管</DisplayName>
+            <Icon>Textures\GUI\Icons\component\Construction\SmallCopperTube_Icon.dds</Icon>
+            <Prerequisites>
+                <Item Amount="5" TypeId="Ingot" SubtypeId="Copper" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="SmallCopperTube" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint> <!-- LargeCopperTube -->
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>LargeCopperTube</SubtypeId>
+            </Id>
+            <DisplayName>大铜管</DisplayName>
+            <Icon>Textures\GUI\Icons\component\Construction\LargeCopperTube_Icon.dds</Icon>
+            <Prerequisites>
+                <Item Amount="30" TypeId="Ingot" SubtypeId="Copper" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="LargeCopperTube" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint> <!-- PolyCarbonatePlate -->
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>PolyCarbonatePlate</SubtypeId>
+            </Id>
+            <DisplayName>Poly Carbonate Plate x10</DisplayName>
+            <Icon>Textures\GUI\Icons\component\Construction\PolyCarbonatePlate_Icon.dds</Icon>
+            <Prerequisites>
+                <Item Amount="10" TypeId="Ingot" SubtypeId="Carbon" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="PolyCarbonatePlate" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+        </Blueprint>
     </Blueprints>
 </Definitions>

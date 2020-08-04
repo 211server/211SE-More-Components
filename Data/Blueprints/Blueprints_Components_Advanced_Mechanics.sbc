@@ -1,0 +1,110 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Blueprints>
+        <Blueprint> <!-- SteelSpring -->
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SteelSpring</SubtypeId>
+            </Id>
+            <DisplayName>弹簧</DisplayName>
+            <Icon>Textures\GUI\Icons\component\Mechanical\SteelSpring_Icon.dds</Icon>
+            <Prerequisites>
+                <Item Amount="10" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="SteelSpring" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint> <!-- BallBearing -->
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>BallBearing</SubtypeId>
+            </Id>
+            <DisplayName>滚珠轴承</DisplayName>
+            <Icon>Textures\GUI\Icons\component\Mechanical\BallBearing_Icon.dds</Icon>
+            <Prerequisites>
+                <Item Amount="15" TypeId="Ingot" SubtypeId="Titanium" />
+                <Item Amount="2" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="BallBearing" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint> <!-- AluminumFanBlade -->
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>AluminumFanBlade</SubtypeId>
+            </Id>
+            <DisplayName>涡轮叶片</DisplayName>
+            <Icon>Textures\GUI\Icons\component\Mechanical\AluminumFanBlade_Icon.dds</Icon>
+            <Prerequisites>
+                <Item Amount="5" TypeId="Component" SubtypeId="BallBearing" />
+                <Item Amount="500" TypeId="Ingot" SubtypeId="Aluminum" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="AluminumFanBlade" />
+            <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint> <!-- SteelPulley -->
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>SteelPulley</SubtypeId>
+            </Id>
+            <DisplayName>带轮</DisplayName>
+            <Icon>Textures\GUI\Icons\component\Mechanical\Pulley_Icon.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Component" SubtypeId="BallBearing" />
+                <Item Amount="10" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="SteelPulley" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint> <!-- DiamondTooling -->
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>DiamondTooling</SubtypeId>
+            </Id>
+            <DisplayName>金刚石工具</DisplayName>
+            <Icon>Textures\GUI\Icons\component\Mechanical\DiamondTooling_Icon.dds</Icon>
+            <Prerequisites>
+                <Item Amount="100" TypeId="Ingot" SubtypeId="Carbon" />
+                <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="DiamondTooling" />
+            <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint> <!-- Filter -->
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>Filter</SubtypeId>
+            </Id>
+            <DisplayName>过滤器</DisplayName>
+            <Icon>Textures\GUI\Icons\component\Mechanical\Filter_Icon.dds</Icon>
+            <Prerequisites>
+                <Item Amount="2" TypeId="Component" SubtypeId="BareBrassWire" />
+                <Item Amount="10" TypeId="Ingot" SubtypeId="Carbon" />
+                <Item Amount="0.5" TypeId="Ingot" SubtypeId="Zinc" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="Filter" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint> <!-- Chain -->
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>Chain</SubtypeId>
+            </Id>
+            <DisplayName>链条</DisplayName>
+            <Icon>Textures\GUI\Icons\component\Mechanical\Chain_Icon.dds</Icon>
+            <Prerequisites>
+                <Item Amount="2" TypeId="Component" SubtypeId="SmallTube" />
+                <Item Amount="6" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="1" TypeId="Ingot" SubtypeId="Titanium" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="Chain" />
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+        </Blueprint>
+    </Blueprints>
+</Definitions>

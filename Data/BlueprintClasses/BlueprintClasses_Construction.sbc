@@ -1,0 +1,39 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlueprintClasses>
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>AdvancedComponents</SubtypeId>
+            </Id>
+            <DisplayName>Advanced Components</DisplayName>
+            <Description>进阶组件</Description>
+            <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+        </Class>
+    </BlueprintClasses>
+
+    <BlueprintClassEntries>
+        <Entry Class="AdvancedComponents" BlueprintSubtypeId="SteelBolt" />
+        <Entry Class="AdvancedComponents" BlueprintSubtypeId="BrazingRod" />
+        <Entry Class="AdvancedComponents" BlueprintSubtypeId="BareBrassWire" />
+        <Entry Class="AdvancedComponents" BlueprintSubtypeId="AluminumPlate" />
+        <Entry Class="AdvancedComponents" BlueprintSubtypeId="TitaniumPlate" />
+        <Entry Class="AdvancedComponents" BlueprintSubtypeId="SmallCopperTube" />
+        <Entry Class="AdvancedComponents" BlueprintSubtypeId="LargeCopperTube" />
+        <Entry Class="AdvancedComponents" BlueprintSubtypeId="Resistor" />
+        <Entry Class="AdvancedComponents" BlueprintSubtypeId="Diode" />
+        <Entry Class="AdvancedComponents" BlueprintSubtypeId="Transistor" />
+        <Entry Class="AdvancedComponents" BlueprintSubtypeId="Sensor" />
+        <Entry Class="AdvancedComponents" BlueprintSubtypeId="HeatSink" />
+        <Entry Class="AdvancedComponents" BlueprintSubtypeId="SteelSpring" />
+        <Entry Class="AdvancedComponents" BlueprintSubtypeId="BallBearing" />
+        <Entry Class="AdvancedComponents" BlueprintSubtypeId="AluminumFanBlade" />
+        <Entry Class="AdvancedComponents" BlueprintSubtypeId="SteelPulley" />
+        <Entry Class="AdvancedComponents" BlueprintSubtypeId="DiamondTooling" />
+        <Entry Class="AdvancedComponents" BlueprintSubtypeId="Filter" />
+        <Entry Class="AdvancedComponents" BlueprintSubtypeId="Chain" />
+    </BlueprintClassEntries>
+</Definitions>
