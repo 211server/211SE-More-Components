@@ -108,10 +108,10 @@
                 <TypeId>BlueprintDefinition</TypeId>
                 <SubtypeId>PolyCarbonatePlate</SubtypeId>
             </Id>
-            <DisplayName>Poly Carbonate Plate x10</DisplayName>
+            <DisplayName>聚碳酸酯板</DisplayName>
             <Icon>Textures\GUI\Icons\component\Construction\PolyCarbonatePlate_Icon.dds</Icon>
             <Prerequisites>
-                <Item Amount="10" TypeId="Ingot" SubtypeId="Carbon" />
+                <Item Amount="1" TypeId="Ingot" SubtypeId="Carbon" />
             </Prerequisites>
             <Result Amount="1" TypeId="Component" SubtypeId="PolyCarbonatePlate" />
             <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>

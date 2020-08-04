@@ -23,6 +23,7 @@
         <Entry Class="AdvancedComponents" BlueprintSubtypeId="TitaniumPlate" />
         <Entry Class="AdvancedComponents" BlueprintSubtypeId="SmallCopperTube" />
         <Entry Class="AdvancedComponents" BlueprintSubtypeId="LargeCopperTube" />
+        <Entry Class="AdvancedComponents" BlueprintSubtypeId="PolyCarbonatePlate" />
         <Entry Class="AdvancedComponents" BlueprintSubtypeId="Resistor" />
         <Entry Class="AdvancedComponents" BlueprintSubtypeId="Diode" />
         <Entry Class="AdvancedComponents" BlueprintSubtypeId="Transistor" />
